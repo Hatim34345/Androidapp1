@@ -5,4 +5,10 @@
     <string name="Login">Login</string>
     <string name="enter_username_hint">Login name</string>
     <string name="Password">Password</string>
+    <string name="switch_on">Switch is On</string>
+    <string name="switch_off">Switch is Off</string>
+    <string name="finish_activity_confirmation">Do you want to finish the activity?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="activity_finished">Activity finished</string>
 </resources>

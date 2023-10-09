@@ -30,5 +30,16 @@
         android:layout_height="wrap_content"
         android:hint="@string/Password"
         android:inputType="textPassword" />
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Address"/>
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"/>
 
 </LinearLayout>

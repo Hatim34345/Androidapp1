@@ -13,12 +13,14 @@
         android:layout_columnWeight="1"
         android:layout_gravity="fill"/>
     <CheckBox
+        android:id="@+id/checkboxFinishActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Check Box"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"/>
     <Switch
+        android:id="@+id/switchButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="What does this do?"
@@ -26,11 +28,20 @@
         android:layout_gravity="fill"/>
 
     <ImageButton
+        android:id="@+id/imageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:contentDescription="Camera"
         android:src="@android:drawable/ic_menu_camera"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"/>
+    <!-- Add an ImageButton to launch the default photo application -->
+    <ImageButton
+        android:id="@+id/imageButtonLaunchPhotoApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_photo" />
+
+
 
 </GridLayout>
